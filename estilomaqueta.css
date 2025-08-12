@@ -1,0 +1,106 @@
+ /* Este es wl salector univesal para formatear margenes */
+     *{
+        margin: 0;
+        padding: 0;
+        list-style:none;
+     }
+     header {
+         position: relative;
+         margin: 5px auto;
+         width: 1000px;
+         height: 125px;
+         background: #8994f1 ;
+
+
+     }
+     #logo{
+         position: absolute;
+         width: 200px;
+         height: 90px;
+         background: red;
+         top: 17px;
+         left: 15px;
+         border-radius:20px;
+
+
+     }
+    .redes{
+        position: absolute;
+        width: 42px;
+        height: 42px;
+        background: green;
+        border-radius: 100%;
+        
+    }  
+    .redes img {
+        width: 62px;
+        height: 62px;
+        border-radius: 100%;
+    }
+
+     #icono1 {
+        top: 30px;
+        right: 160px;
+     }
+     #icono2 {
+        top: 30px;
+        right: 89px;
+     }
+     #icono3 {
+        top: 30px;
+        right: 19px;
+     }
+
+     nav {
+        position: relative;
+        margin: 5px auto;
+        width: 1000px;
+        height: 50px;
+     /*   background: rgb(228, 128, 198); */
+     }
+     .botones{
+       float: left; 
+       width: 196px;
+       height: 50px;
+       margin: 0px 2px;
+       background: rgb(152, 152, 240);
+       font-family: Georgia, 'Times New Roman', Times, serif;
+     }
+     section{
+        position: relative;
+        margin: 5px auto;
+        width: 1000px;
+        height: 453px;
+        background: rgb(103, 166, 238);
+     }
+    aside#izq{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 200px;
+        height: 453px;
+        background: rgb(72, 235, 181);
+    }
+    article{
+        position: absolute;
+        top: 0;
+        left: 200px;
+        width: 600px;
+        height: 453px;
+        background: rgb(214, 135, 32);
+    }
+    aside#der{
+        position: absolute;
+        top: 0;
+        left: 800px;
+        width: 200px;
+        height: 453px;
+        background: rgb(199, 219, 17);
+    } 
+    footer{
+        position: relative;
+        margin: 5px auto;
+        width: 1000px;
+        height: 90px;
+        background: rgb(233, 52, 52); 
+    }
